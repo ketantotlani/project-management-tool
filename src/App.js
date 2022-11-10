@@ -23,6 +23,7 @@ import axios from "axios";
 
 const jwtToken = localStorage.jwtToken;
 axios.defaults.baseURL = process.env.BASE_URL;
+console.log(process.env)
 
 if (jwtToken) {
   setJWTToken(jwtToken);
