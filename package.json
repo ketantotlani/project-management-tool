@@ -21,7 +21,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "https://project-manage-prod-pmt-vcmlh6.mo1.mogenius.io",
   "browserslist": {
     "production": [
       ">0.2%",

@@ -19,8 +19,10 @@ import setJWTToken from "./securityUtils/setJWTToken";
 import { SET_CURRENT_USER } from "./actions/types";
 import { logout } from "./actions/securityActions";
 import SecuredRoute from "./securityUtils/SecureRoute";
+import axios from "axios";
 
 const jwtToken = localStorage.jwtToken;
+axios.defaults.baseURL = process.env.BASE_URL;
 
 if (jwtToken) {
   setJWTToken(jwtToken);
