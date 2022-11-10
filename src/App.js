@@ -22,8 +22,8 @@ import SecuredRoute from "./securityUtils/SecureRoute";
 import axios from "axios";
 
 const jwtToken = localStorage.jwtToken;
-axios.defaults.baseURL = process.env.BASE_URL;
-console.log(process.env)
+axios.defaults.baseURL = process.env.production.BASE_URL;
+console.log(process.env.production)
 
 if (jwtToken) {
   setJWTToken(jwtToken);
