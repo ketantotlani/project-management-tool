@@ -22,7 +22,7 @@ import SecuredRoute from "./securityUtils/SecureRoute";
 import axios from "axios";
 
 const jwtToken = localStorage.jwtToken;
-axios.defaults.baseURL = https://project-manage-prod-pmt-vcmlh6.mo1.mogenius.io;
+axios.defaults.baseURL = "https://project-manage-prod-pmt-vcmlh6.mo1.mogenius.io";
 
 if (jwtToken) {
   setJWTToken(jwtToken);
