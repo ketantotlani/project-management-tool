@@ -2,6 +2,15 @@ img {
   width: 100%;
 }
 
+.nav-styles{
+  background-color: #b4d5ff !important;
+}
+
+
+.nav-styles *{
+  color: black !important;
+}
+
 .navbar {
   background-color: #e3f2fd;
 }
